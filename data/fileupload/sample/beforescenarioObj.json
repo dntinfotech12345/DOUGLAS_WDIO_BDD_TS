@@ -1,0 +1,370 @@
+{
+    "gherkinDocument": {
+        "feature": {
+            "tags": [],
+            "location": {
+                "line": 1,
+                "column": 1
+            },
+            "language": "en",
+            "keyword": "Feature",
+            "name": "Advansed Web Interaction inventory",
+            "description": "",
+            "children": [
+                {
+                    "scenario": {
+                        "id": "12",
+                        "tags": [
+                            {
+                                "location": {
+                                    "line": 3,
+                                    "column": 5
+                                },
+                                "name": "@WebAdvansed",
+                                "id": "11"
+                            }
+                        ],
+                        "location": {
+                            "line": 4,
+                            "column": 5
+                        },
+                        "keyword": "Scenario Outline",
+                        "name": "<TestId>: Demo Advansed Web interaction inventory",
+                        "description": "",
+                        "steps": [
+                            {
+                                "id": "5",
+                                "location": {
+                                    "line": 7,
+                                    "column": 9
+                                },
+                                "keyword": "Given ",
+                                "keywordType": "Context",
+                                "text": "As a standard user I login to inventory web page",
+                                "dataTable": {
+                                    "location": {
+                                        "line": 9,
+                                        "column": 13
+                                    },
+                                    "rows": [
+                                        {
+                                            "id": "0",
+                                            "location": {
+                                                "line": 9,
+                                                "column": 13
+                                            },
+                                            "cells": [
+                                                {
+                                                    "location": {
+                                                        "line": 9,
+                                                        "column": 15
+                                                    },
+                                                    "value": "userType"
+                                                },
+                                                {
+                                                    "location": {
+                                                        "line": 9,
+                                                        "column": 26
+                                                    },
+                                                    "value": "Username"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "1",
+                                            "location": {
+                                                "line": 10,
+                                                "column": 13
+                                            },
+                                            "cells": [
+                                                {
+                                                    "location": {
+                                                        "line": 10,
+                                                        "column": 15
+                                                    },
+                                                    "value": "StdUser"
+                                                },
+                                                {
+                                                    "location": {
+                                                        "line": 10,
+                                                        "column": 26
+                                                    },
+                                                    "value": "standard_user"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "2",
+                                            "location": {
+                                                "line": 11,
+                                                "column": 13
+                                            },
+                                            "cells": [
+                                                {
+                                                    "location": {
+                                                        "line": 11,
+                                                        "column": 15
+                                                    },
+                                                    "value": "ProdUser"
+                                                },
+                                                {
+                                                    "location": {
+                                                        "line": 11,
+                                                        "column": 26
+                                                    },
+                                                    "value": "locked_out_user"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "3",
+                                            "location": {
+                                                "line": 12,
+                                                "column": 13
+                                            },
+                                            "cells": [
+                                                {
+                                                    "location": {
+                                                        "line": 12,
+                                                        "column": 15
+                                                    },
+                                                    "value": "ProbUser"
+                                                },
+                                                {
+                                                    "location": {
+                                                        "line": 12,
+                                                        "column": 26
+                                                    },
+                                                    "value": "problem_use"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "4",
+                                            "location": {
+                                                "line": 13,
+                                                "column": 13
+                                            },
+                                            "cells": [
+                                                {
+                                                    "location": {
+                                                        "line": 13,
+                                                        "column": 15
+                                                    },
+                                                    "value": "PerfUser"
+                                                },
+                                                {
+                                                    "location": {
+                                                        "line": 13,
+                                                        "column": 26
+                                                    },
+                                                    "value": "performance_glitch_user"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "6",
+                                "location": {
+                                    "line": 15,
+                                    "column": 9
+                                },
+                                "keyword": "Then ",
+                                "keywordType": "Outcome",
+                                "text": "Inventory page should list <NumberOfProducts>"
+                            },
+                            {
+                                "id": "7",
+                                "location": {
+                                    "line": 16,
+                                    "column": 9
+                                },
+                                "keyword": "Then ",
+                                "keywordType": "Outcome",
+                                "text": "Validate all products have valid price"
+                            }
+                        ],
+                        "examples": [
+                            {
+                                "id": "10",
+                                "tags": [],
+                                "location": {
+                                    "line": 19,
+                                    "column": 9
+                                },
+                                "keyword": "Examples",
+                                "name": "",
+                                "description": "",
+                                "tableHeader": {
+                                    "id": "8",
+                                    "location": {
+                                        "line": 20,
+                                        "column": 13
+                                    },
+                                    "cells": [
+                                        {
+                                            "location": {
+                                                "line": 20,
+                                                "column": 15
+                                            },
+                                            "value": "TestId"
+                                        },
+                                        {
+                                            "location": {
+                                                "line": 20,
+                                                "column": 27
+                                            },
+                                            "value": "NumberOfProducts"
+                                        }
+                                    ]
+                                },
+                                "tableBody": [
+                                    {
+                                        "id": "9",
+                                        "location": {
+                                            "line": 21,
+                                            "column": 13
+                                        },
+                                        "cells": [
+                                            {
+                                                "location": {
+                                                    "line": 21,
+                                                    "column": 15
+                                                },
+                                                "value": "INT_TC001"
+                                            },
+                                            {
+                                                "location": {
+                                                    "line": 21,
+                                                    "column": 27
+                                                },
+                                                "value": "6"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "comments": [
+            {
+                "location": {
+                    "line": 6,
+                    "column": 1
+                },
+                "text": "        # just a test manaase"
+            }
+        ],
+        "uri": "C:\\Visual Studio\\documents\\workspace\\WDIO\\test\\features\\inventory\\WebAdvansedInvetory.feature"
+    },
+    "pickle": {
+        "id": "16",
+        "uri": "C:\\Visual Studio\\documents\\workspace\\WDIO\\test\\features\\inventory\\WebAdvansedInvetory.feature",
+        "astNodeIds": [
+            "12",
+            "9"
+        ],
+        "name": "INT_TC001: Demo Advansed Web interaction inventory",
+        "language": "en",
+        "steps": [
+            {
+                "id": "13",
+                "text": "As a standard user I login to inventory web page",
+                "type": "Context",
+                "argument": {
+                    "dataTable": {
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "value": "userType"
+                                    },
+                                    {
+                                        "value": "Username"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "value": "StdUser"
+                                    },
+                                    {
+                                        "value": "standard_user"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "value": "ProdUser"
+                                    },
+                                    {
+                                        "value": "locked_out_user"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "value": "ProbUser"
+                                    },
+                                    {
+                                        "value": "problem_use"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "value": "PerfUser"
+                                    },
+                                    {
+                                        "value": "performance_glitch_user"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "astNodeIds": [
+                    "5",
+                    "9"
+                ],
+                "keyword": "Given "
+            },
+            {
+                "id": "14",
+                "text": "Inventory page should list 6",
+                "type": "Outcome",
+                "astNodeIds": [
+                    "6",
+                    "9"
+                ],
+                "keyword": "Then "
+            },
+            {
+                "id": "15",
+                "text": "Validate all products have valid price",
+                "type": "Outcome",
+                "astNodeIds": [
+                    "7",
+                    "9"
+                ],
+                "keyword": "Then "
+            }
+        ],
+        "tags": [
+            {
+                "name": "@WebAdvansed",
+                "astNodeId": "11"
+            }
+        ]
+    },
+    "testCaseStartedId": "46"
+}
