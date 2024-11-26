@@ -1,6 +1,6 @@
 Feature: Verify the parfum page
 
-  @dauglas
+  @dauglas @parfum
   Scenario Outline: Verify the filter option in Highlights dropdown
     Given User navigates to the application
     When User click on "PARFUM" tab

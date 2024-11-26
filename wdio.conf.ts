@@ -415,7 +415,6 @@ export const config: Options.Testrunner = {
     // Add more environment details
 
     allure.addEnvironment("Environment", browser.config.environment);
-    allure.addEnvironment("Middleware", "Dev environment");
   },
 
   /**
